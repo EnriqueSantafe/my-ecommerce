@@ -1,3 +1,5 @@
+import CarWidget from "../CarWidget/CarWidget"
+
 const Navbar = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const Navbar = () => {
               <a href='www.mimarca.es/categoria3' className='nav_link'>Categoría3</a>
             </li>
             <li>
-              <a href='www.mimarca.es/carrito' className='nav_link'>Carrito</a>
+              <a href='www.mimarca.es/carrito' className='nav_link'><CarWidget /></a>
             </li>
             <li>
               <a href='www.mimarca.es/contacto' className='nav_link'>Contacto</a>
